@@ -1,0 +1,101 @@
+@use "./variabili" as v;
+
+
+
+header {
+    background-color: v.$background-color;
+    color: white;
+    padding: 40px 35px!important;
+    font-weight: 200;
+
+    img {
+    max-width: 250px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    }
+
+    h2 {
+    font-family: "Castoro", serif;
+    font-size: 2.2em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    }
+
+    p {
+    margin-bottom: 6px!important;
+    line-height: 1.3;
+    }
+
+    a {
+    color: white!important;
+    text-decoration: none;
+    }
+
+    span {
+    font-weight: 600;
+    }
+
+    h6 {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: rgb(1, 45, 24);
+    }
+
+    hr {
+    border: 0!important;
+    border-top: 2px solid v.$light-green!important;
+    opacity: 1!important;
+    }
+}
+
+.container {
+    margin: 10px!important;
+}
+
+.div-img {
+    text-align: center;
+    margin-bottom: 20px;
+
+    h6 {
+    margin-top: 0px;
+    }
+}
+
+.date {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.accordion-section {
+
+    .section-content {
+        display: block;
+    }
+
+    p {
+        margin-bottom: 15px!important;
+        line-height: 1.3;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: block;
+    }
+
+    h6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+}
+
+
